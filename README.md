@@ -9,3 +9,4 @@ docker run -it topstories:1.0
 docker tag topstories:1.0 bh7cw/topstories:1.0
 docker push bh7cw/topstories:1.0
 ```
+Jenkins uses full GitHash Value as the tag, and marks the latest tag.
